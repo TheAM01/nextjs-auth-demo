@@ -10,7 +10,7 @@ export default function Home() {
       <form
         action={signInToApp}
       >
-        <button className="bg-blue-600 text-white px-4 py-2 rounded">Sign in with Google</button>
+        <button className="bg-blue-800 text-white px-4 py-2 rounded">Sign in with Google</button>
       </form>
       <form
         action={signOutOfApp}
