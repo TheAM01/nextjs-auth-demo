@@ -4,7 +4,7 @@ export default async function Dashboard() {
     const session = await auth();
 
     return (
-        <main className="flex flex-col items-center justify-center min-h-screen space-y-4">
+        <main className="flex flex-col items-center justify-center min-h-screen space-y-4 bg-amber-300">
             <h1 className="text-2xl font-bold">Dashboard</h1>
             {session?.user ? (
                 <>
